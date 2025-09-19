@@ -17,7 +17,7 @@ dbConnect()
 app.use(express.json())
 
 // Routing
-app.use("/todo",todoRoute)
+app.use("/",todoRoute)
 
 // server starting
 
